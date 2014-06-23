@@ -1,0 +1,39 @@
+section.airplane {
+    background-image: url(../img/airplane_model.jpg);
+    background-size: cover;
+}
+section.mustang {
+    background-image: url(../img/mustang_airplane.jpg);
+    background-size: cover;
+}
+section.airplane p, section.mustang p {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+section.definition p{
+    /* font-size: 1.1em; */
+}
+
+/* .reveal img#good_parts { */
+/*     position: absolute; */
+/*     bottom: 50px; */
+/*     right: 50px; */
+/*     width: 200px; */
+/* } */
+
+.reveal .shadow {
+    color: white;
+    text-shadow: black 3px 3px;
+}
+.reveal .highlight {
+    color: orange;
+}
+.reveal .small {
+    color: #999;
+    font-size: .8em;
+}
+.reveal pre {
+    font-size: .7em;
+}
