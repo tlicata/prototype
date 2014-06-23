@@ -1,3 +1,16 @@
+///////
+
+Prototypes.
+
+Complicated.
+
+Two reasons to know:
+
+1) for job interviews (or to look cool at parties)
+2) to implement type hierarchies
+
+///////
+
 Prototype (Wikipedia)
 
 "to act as a thing to be replicated"
@@ -10,13 +23,6 @@ No - Prototype JavaScript Framework
 Yes - In prototype-based programming (a form of object-oriented
 programming), new objects are produced by cloning existing
 objects, which are called prototypes.
-
-///////
-
-Two reasons to know prototypes:
-
-1) for job interviews (or to look cool at parties)
-2) to implement type hierarchies
 
 ///////
 
@@ -42,8 +48,8 @@ Observations:
 
 "Every object is linked to a prototype object from which
 it can inherit properties. All objects created from object
-literals are linked to the Object.prototype, an object that
-comes standard with JavaScript."
+literals [(i.e. {})]are linked to the Object.prototype, an
+object that comes standard with JavaScript."
 
 "When you make a new object, you can select the object that
 should be its prototype. The mechanism that JavaScript provides
