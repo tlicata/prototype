@@ -80,62 +80,11 @@ Pants-Oriented clothing".
 Steve Yegge, "Execution in the Kingdom of Nouns"
 
 ///////
-var car = {
-    make: "Dodge",
-    model: "Ram",
-    year: 1984
-};
-
-///////
-
-car.make => "Dodge";
-car.toString() => "[Object object]" //?
-
-///////
-
-var Car = function (make, model, year) {
-    this.make = make;
-    this.model = model;
-    this.year = year;
-};
-
-var car = {
-    make: "Dodge",
-    model: "Ram",
-    year: 1984
-};
-var car_fancy = new Car("Dodge", "Ram", 1984);
-
-///////
 
 var obj = {};
 var obj = new Object();
 
-////////
-
-var car = {make: "Dodge", model: "Ram", year: 1984};
-var car = new Object({make: "Dodge",
-                      model: "Ram",
-                      year: 1984});
-
 ///////
-
-Car.prototype = Number;
-Car.prototype = Array;
-// but that's silly!
-
-///////
-
-car instanceof Object => true
-car_fancy instanceof Car => true
-car instanceof Car => ?
-car_fancy instanceof Object => ?
-
-////////
-
-Car.prototype
-
-////////
 
 Terminology!!!
 "new" keyword
@@ -143,18 +92,3 @@ Class / Type
 Constructor
 Object-Oriented
 Inheritence (Classical vs. Prototypal)
-
-////////
-
-var Car = function (make, model, year) {
-    this.make = make;
-    this.model = model;
-    this.year = year;
-};
-var car = new Car("Dodge", "Ram", 1984);
-
-////////
-
-car instanceof Object
-car instanceof Car
-
